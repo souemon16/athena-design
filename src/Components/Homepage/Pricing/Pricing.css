@@ -1,0 +1,138 @@
+.pricing{
+    width: 100%;
+    height: 130vh;
+    padding: 100px 0;
+}
+.pricing .heading h2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 4.8rem;
+    line-height: 4.6rem;
+    margin-bottom: 8rem;
+}
+.pricing .pricing-cards .cards{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    padding: 20px 0;
+    box-shadow: 1px 1px 20px lightslategrey;
+}
+.pricing .pricing-cards .cards h1{
+    font-size: 6.7rem;
+    line-height: 9rem;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #0F0F0F;
+}
+.pricing .pricing-cards .cards p{
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #353535;
+}
+.pricing .pricing-cards .cards ul{
+    margin-top: 15px;
+    margin-right: 40px;
+    text-align: center;
+}
+.pricing .pricing-cards .cards ul::before{
+    content: '';
+    display: block;
+    width: 220px;
+    background-color: #3CEDCE;
+    height: 1.8px;
+}
+.pricing .pricing-cards .cards ul li{
+    list-style: none;
+    font-size: 1.6rem;
+    line-height: 5rem;
+    color: #000;
+    font-weight: 500;
+}
+.pricing .pricing-cards .special{
+    border: 3px solid #3CEDCE;
+}
+.pricing .pricing-cards .order-now{
+    width: 140px;
+    height: 110px;
+    color: #fff;
+    font-size: 1.6rem;
+    background: linear-gradient(317deg, #1DDAB7 0% ,#06AAEF 100%);
+    border-radius: 25px 0 25px 0;
+}
+.pricing .pricing-cards .order-now:hover{
+    background: linear-gradient(317deg,  #06AAEF 0% , #1DDAB7 100%);
+}
+@media (max-width: 1326px){
+    .pricing{
+        height: 170vh;
+    }
+}
+@media (max-width: 1000px){
+    .pricing{
+        height: 440vh;
+    }
+    .pricing .pricing-cards .row{
+        padding: 0 200px;
+    }
+    .pricing .pricing-cards .cards{
+        margin: 20px 0;
+    }
+}
+
+    @media (max-width: 714px){
+        .pricing .heading h2{
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 714px){
+        .pricing .pricing-cards .row{
+            padding: 0 150px;
+        }
+        .pricing .pricing-cards .cards h1{
+            font-size: 5.6rem;
+            line-height: 9rem;
+            font-weight: 500;
+
+        }
+        .pricing .pricing-cards .cards p{
+            font-size: 1.8rem;
+            line-height: 3rem;
+        }
+        .pricing .pricing-cards .cards ul li{
+            list-style: none;
+            font-size: 1.4rem;
+            line-height: 5rem;
+            color: #000;
+            font-weight: 500;
+        }
+        .pricing .pricing-cards .cards ul::before{
+            width: 150px;
+            height: 1.8px;
+        }
+    }
+
+    @media (max-width: 578px){
+        .pricing .pricing-cards .row{
+            padding: 0 110px;
+        }
+    }
+    @media (max-width: 474px){
+        .pricing .pricing-cards .row{
+            padding: 0 60px;
+        }
+    }
+    @media (max-width: 384px){
+        .pricing .pricing-cards .row{
+            padding: 0 40px;
+        }
+    }
+    @media (max-width: 250px){
+        .pricing .pricing-cards .row{
+            padding: 0 20px;
+        }
+    }

@@ -1,14 +1,14 @@
 .achievements{
     width: 100%;
-    height: 60vh;
+    height: 80vh;
 }
-.achievements .row .col-md-5 h2{ 
+.achievements .row .col-md-4 h2{ 
     font-family: 'Yeseva One', cursive;
     font-size: 3.4rem;
     line-height: 4.6rem;
     margin-bottom: 3rem;
 }
-.achievements .row .col-md-5 p{
+.achievements .row .col-md-4 p{
     color: #8D8D8D;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -16,7 +16,128 @@
     font-size: 1.4rem;
     line-height: 3rem;
 }
-
-.achievements .row .col-md-5 .card{
-    
+.achievements .row .col-md-7{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
+.achievements .row .col-md-7 .row{
+    margin: 0;
+    padding: 0;
+}
+.achievements .row .col-md-7 .row .card{
+    height: 150px;
+    width: 350px;
+    margin: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30px;
+    box-shadow: .5px .5px 40px #3cedcc4d;
+    border: 1px solid white;
+}
+.achievements .row .col-md-7 .row .card img{
+    width: 65px;
+    height: 65px;
+}
+.achievements .row .col-md-7 .row .card .card-detail h3{
+    color: #707070;
+    font-style: normal;
+    font-size: 4rem;
+    line-height: 3rem;
+    text-align: left;
+    font-weight: bold;
+}
+.achievements .row .col-md-7 .row .card .card-detail p{
+    color: #707070;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: left;
+}
+.achievements .row .col-md-7 .row .right{
+    border-radius: 50px 0 50px 0;
+}
+.achievements .row .col-md-7 .row .left{
+    border-radius: 0 50px 0 50px;
+}
+.achievements .row .col-md-7 .row .special{
+    background: linear-gradient(49deg, #0DB8DF 0%, #1EDCB6 90%);
+}
+.achievements .row .col-md-7 .row .special .card-detail h3, 
+.achievements .row .col-md-7 .row .special .card-detail p{
+    color: #fff;
+}
+@media (max-width: 1200px){
+    .achievements .row .col-md-7 .row .card{
+        width: 270px;
+        margin: 20px;
+        padding: 0 30px;
+    }
+}
+@media (max-width: 990px){
+    .achievements .row .col-md-7 .row .card{
+        width: 220px;
+        margin: 20px 0;
+        padding: 0 20px;
+    }
+    .achievements{
+        height: 90vh;
+    }
+    .achievements .row .col-md-7 .row .card .card-detail h3{
+        font-style: normal;
+        font-size: 3rem;
+        line-height: 2rem;
+    }
+    .achievements .row .col-md-7 .row .card .card-detail p{
+        font-style: normal;
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    .achievements .row .col-md-7{
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .achievements .row .col-md-7 .row .card img{
+        width: 45px;
+        height: 45px;
+    }
+}
+@media (max-width: 768px){
+    .achievements{
+        height: 190vh;
+        border: 1px solid orange;
+    }
+    .achievements .row .col-md-7{
+        justify-content: center;
+        align-items: center;
+    }
+    .achievements .row .col-md-7 .row{
+        justify-content: center;
+        align-items: center;
+    }
+    .achievements .row .col-md-7 .row .card{
+        height: 150px;
+        width: 350px;
+        margin: 20px;
+        padding: 0 30px;
+    }
+    .achievements .row .col-md-7 .row .card img{
+        width: 65px;
+        height: 65px;
+    }
+    .achievements .row .col-md-7 .row .card .card-detail h3{
+        font-size: 4rem;
+        line-height: 3rem;
+
+    }
+    .achievements .row .col-md-7 .row .card .card-detail p{
+        font-size: 2rem;
+        line-height: 3rem;
+
+    }
+}
+
