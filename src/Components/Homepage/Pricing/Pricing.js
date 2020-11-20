@@ -3,7 +3,7 @@ import './Pricing.css';
 
 const Pricing = () => {
     return (
-        <section className="pricing d-flex flex-column align-items-center">
+        <section id='pricing' className="pricing d-flex flex-column align-items-center">
             <div className="heading">
                 <h2>Choose Your Dedicated Team</h2>
             </div>

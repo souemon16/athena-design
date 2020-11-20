@@ -25,12 +25,12 @@ const Navbar = () => {
 
             <div className="nav-items d-flex justify-content-around align-items-center">
                 <ul className='d-flex justify-content-center align-items-center'>
-                    <li><Link className='nav-links' to=''>Home</Link></li>
-                    <li><Link className='nav-links' to=''>About</Link></li>
-                    <li><Link className='nav-links' to=''>Service</Link></li>
-                    <li><Link className='nav-links' to=''>Pricing</Link></li>
+                    <li><Link className='nav-links' to='#home'>Home</Link></li>
+                    <li><Link className='nav-links' to='#about'>About</Link></li>
+                    <li><Link className='nav-links' to='#service'>Service</Link></li>
+                    <li><Link className='nav-links' to='#pricing'>Pricing</Link></li>
                     <li><Link className='nav-links' to=''>Our Team</Link></li>
-                    <li> <button className="btn contact-us">Contact Us</button></li>
+                    <li> <button className="btn contact-us-btn">Contact Us</button></li>
                 </ul>
             </div>
             <div className="nav-icon">

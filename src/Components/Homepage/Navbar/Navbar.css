@@ -3,7 +3,6 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 100px;
-    border: 1px solid red;
     width: 100%;
 }
 .logo{
@@ -48,17 +47,17 @@ nav{
     width: 100%;
     font-weight: 500;
 }
-.nav-items .contact-us{
+.nav-items .contact-us-btn{
     font-size: 1.8rem;
     color: #fff;
     width: 155px;
     height: 50px;
-    background-image: linear-gradient(to right, #19D2C0 0%,#2EBBEC 60%);
+    background-image: linear-gradient(112deg, #1CD8BA 0%, #07ACED 100%);
     border-radius: 25px 0 25px 0;
     transition: .3s;
 }
-.nav-items .contact-us:hover{
-    background-image: linear-gradient(to right, #2EBBEC 0%, #19D2C0 60%);
+.nav-items .contact-us-btn:hover{
+    background-image: linear-gradient(112deg, #07ACED  0%, #1CD8BA 100%);
 }
 
 .nav-icon .bar{

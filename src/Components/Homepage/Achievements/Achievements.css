@@ -108,8 +108,7 @@
 }
 @media (max-width: 768px){
     .achievements{
-        height: 190vh;
-        border: 1px solid orange;
+        height: 200vh;
     }
     .achievements .row .col-md-7{
         justify-content: center;
@@ -138,6 +137,17 @@
         font-size: 2rem;
         line-height: 3rem;
 
+    }
+}
+
+@media (max-width: 392px){
+    .achievements{
+        height: 220vh;
+    }
+}
+@media (max-width: 224px){
+    .achievements{
+        height: 240vh;
     }
 }
 

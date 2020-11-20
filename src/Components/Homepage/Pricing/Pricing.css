@@ -135,4 +135,8 @@
         .pricing .pricing-cards .row{
             padding: 0 20px;
         }
+        .pricing .heading h2{
+        font-size: 3rem;
+        line-height: 4.6rem;
+        }
     }
